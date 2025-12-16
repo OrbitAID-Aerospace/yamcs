@@ -7,7 +7,7 @@ This repo includes:
 ## What gets published
 
 Images are published to:
-- `ghcr.io/<org>/<repo>`
+- `ghcr.io/ajnacloud-ksj/yamcs`
 
 Tags:
 - `latest` on the default branch
