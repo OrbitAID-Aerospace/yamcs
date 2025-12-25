@@ -38,7 +38,7 @@ jobs:
         uses: docker/metadata-action@v5
         with:
           # Pin the image name so publishing does not depend on the clone origin.
-          images: ghcr.io/orbitaid/yamcs
+          images: ghcr.io/${{ github.repository }}
           tags: |
             type=ref,event=branch
             type=ref,event=tag
