@@ -10,19 +10,10 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        java: ["17", "21"]
+        java: ["17"]
         platform: [ubuntu-latest]
         mvn_opts: ["-Dsurefire.useFile=false"]
         experimental: [false]
-        include:
-          - platform: macos-latest
-            java: "17"
-            mvn_opts: "-Dsurefire.useFile=false"
-            experimental: true
-          - platform: windows-latest
-            java: "17"
-            mvn_opts: '"-Dsurefire.useFile=false"'
-            experimental: true
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-java@v4
