@@ -5,7 +5,7 @@
 
 Yamcs is a mission control framework developed in Java. It uses an open-ended architecture that allows tailoring its feature set using yaml configuration files. You can also extend the default feature set by writing custom Java classes.
 
-To start developing your own Yamcs application, follow our [Getting Started](https://yamcs.org/getting-started) guide.
+To start developing your own Yamcs application, follow our [Getting Started](https://yamcs.org/getting-started) guide..
 
 
 ## Documentation
